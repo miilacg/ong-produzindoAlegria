@@ -6,12 +6,14 @@
         
         <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity = "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin = "anonymous">
-        <link rel = "stylesheet" href = "style.css">
+        <link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity = "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin = "anonymous">
+        <link href = "estilo.css" rel = "stylesheet">
 
         <script type = "text/javascript" src = "script.js"></script>
     
         <title>Produzindo Alegria</title>
-        <link rel="shortout icon" href="imagens/logo1.png" type="image/x-png">    
+        <link rel="shortout icon" href="imagens/logo1.png" type = "image/x-png">    
     </head>
     <body>
         <div class = cabecalho>
@@ -22,28 +24,82 @@
                     <span class = "navbar-toggler-icon"></span>
                 </button>
         
-                <div class = "collapse navbar-collapse" id = "navbarSupportedContent">
+                <div class = "collapse navbar-collapse justify-content-end" id = "navbarSupportedContent">
                     <ul class = "navbar-nav">
                         <li class = "nav-item">
-                            <a class = "nav-link" href = "quemSomos.html">Sobre nós</a>
+                            <a class = "nav-link" href = "#quemSomos">Sobre nós</a>
                         </li>
                         <li class = "nav-item">
-                            <button class = "btn comoAjudar" type = "button" onclick = "comoAjudar();">SAIBA COMO AJUDAR</button>
+                            <a class = "nav-link" href = "#ajuda">Saiba como ajudar</a>
                         </li>
                         <li class = "nav-item">
-                            <a class = "nav-link" href = "contato.html">Entre em contato</a>
+                            <a class = "nav-link" href = "#contato">Entre em contato</a>
                         </li>
                     </ul>
                 </div>
             </nav>
 
-            <img src = "imagens/capaHome.png" style = "width: 100%;">
+            <img src = "imagens/capa.png" style = "width: 100%;">
+        </div> <!-- Fim cabeçalho-->       
 
-        </div>        
+        <div class = "corpo">
+            <div class = "row row_um">
+                <div class = "col sobre-nos">                    
+                    <h1>Sobre nós</h1>
+
+                    <p style = "font-weight: bold; font-size: 1.8vw;">O Produzindo Alegria nasceu em 2016. O projeto é de cunho social e visa levar alegria e apoio a pessoas carentes. </p>
+                    
+                    <p>A ideia não é apenas entregar doações e fazer um dia divertido em comunidades, apesar de esse ser um dos pontos fortes 
+                        das ações realizadas. O Produzindo Alegria busca gerar valor para as comunidades e instituições que visitam e torná-las 
+                        visíveis para que outras pessoas possam conhecê-las e ajudá-las também. 
+                    </p>
+
+                    <p>Atualmente o projeto conta com cerca de 100 voluntários de Belo Horizonte e região, que estão engajados em fazer do Produzindo 
+                        Alegria uma grande corrente do bem. Trata-se de um movimento lindo, mas que necessita de colaboração para continuar gerando 
+                        impacto social e alegria em todos os lugares visitados da nossa região.
+                    </p>
+
+                    <button class = "btn botao-ajuda" type = "submit">SAIBA COMO AJUDAR</button>
+                </div>
+                
+                <div class = "col fazemos-isso">
+                    <h2>Fazemos isso e muito mais...</h2>
+
+                    <div class = "row caixas">
+                        <div class = "container">
+                            <img class = "figura1" src = "imagens/caixa.png">
+                        </div>
+
+                        <div class = "container" style = "margin-left: -1.5vw;">
+                            
+                        </div>
+                    </div>  
+                </div>
+            </div> <!-- fim row-um -->
+
+            <div class = "row row-galeria">
+                <div class = "col quadro">
+                    <img class = "img1" src = "imagens/img1.png">
+                </div>
+
+                <div class = "col quadro">
+                    <img class = "img2" src = "imagens/img2.png">
+                </div>
+
+                <div class = "col quadro">
+                    <img class = "img3" src = "imagens/img3.png">
+                </div>
+                
+                <div class = "col texto">
+                    
+                </div>
+            </div> <!-- fim row-rosa -->
+
+        </div> <!-- Fim do Corpo -->
             
         <div class = "rodape">
             
-        </div>
+        </div> <!-- Fim do rodape -->
 
 
         <script src = "https://code.jquery.com/jquery-3.4.1.slim.min.js"
