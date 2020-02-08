@@ -8,6 +8,8 @@
         integrity = "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin = "anonymous">
         <link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity = "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin = "anonymous">
+        <link href = 'https://fonts.googleapis.com/css?family=Work%20Sans' rel='stylesheet'>
+        <link href = 'https://fonts.googleapis.com/css?family=Asap' rel='stylesheet'>
         <link href = "estilo.css" rel = "stylesheet">
 
         <script type = "text/javascript" src = "script.js"></script>
@@ -17,7 +19,7 @@
     </head>
     <body>
         <div class = cabecalho>
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class = "navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#"><img src = "imagens/logo1.png" style = "width: 100px;" alt = "logo da ONG Prduzindo Alegria"></a>
                 <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarSupportedContent"
                     aria-controls = "navbarSupportedContent" aria-expanded = "false" aria-label = "Toggle navigation">
@@ -26,14 +28,14 @@
         
                 <div class = "collapse navbar-collapse justify-content-end" id = "navbarSupportedContent">
                     <ul class = "navbar-nav">
-                        <li class = "nav-item">
-                            <a class = "nav-link" href = "#quemSomos">Sobre nós</a>
+                        <li class = "nav-item" style = "margin-right: 4vw;">
+                            <a class = "menu" href = "#quemSomos">Sobre nós</a>
                         </li>
-                        <li class = "nav-item">
-                            <a class = "nav-link" href = "#ajuda">Saiba como ajudar</a>
+                        <li class = "nav-item" style = "margin-right: 4vw;">
+                            <a class = "menu" href = "#ajuda">Saiba como ajudar</a>
                         </li>
-                        <li class = "nav-item">
-                            <a class = "nav-link" href = "#contato">Entre em contato</a>
+                        <li class = "nav-item" style = "margin-right: 8vw;">
+                            <a class = "menu" href = "#contato">Entre em contato</a>
                         </li>
                     </ul>
                 </div>
@@ -45,7 +47,7 @@
         <div class = "corpo">
             <div class = "row row_um">
                 <div class = "col sobre-nos">                    
-                    <h1>Sobre nós</h1>
+                    <h1 class = "titulo-sobre-nos" id = "quemSomos">Sobre nós</h1>
 
                     <p style = "font-weight: bold; font-size: 1.8vw;">O Produzindo Alegria nasceu em 2016. O projeto é de cunho social e visa levar alegria e apoio a pessoas carentes. </p>
                     
@@ -78,27 +80,55 @@
             </div> <!-- fim row-um -->
 
             <div class = "row row-galeria">
-                <div class = "col quadro">
+                <div class = "col quadro-branco" style = "margin-left: 3vw; margin-right: 1vw;">
                     <img class = "img1" src = "imagens/img1.png">
                 </div>
 
-                <div class = "col quadro">
+                <div class = "col quadro-branco" style = "margin-left: 2vw; margin-right: 1vw;">
                     <img class = "img2" src = "imagens/img2.png">
                 </div>
 
-                <div class = "col quadro">
+                <div class = "col quadro-branco" style = "margin-left: 2vw; margin-right: 1vw;">
                     <img class = "img3" src = "imagens/img3.png">
                 </div>
                 
-                <div class = "col texto">
-                    
+                <div class = "col texto" style = "margin-left: 1.5vw;">
+                    <label>Galeria de fotos</label><br>
+                    <button class = "btn botao-flickr" type = "submit">VER MAIS NO FLICKR</button>
                 </div>
-            </div> <!-- fim row-rosa -->
+            </div> <!-- fim row-galeria -->
+
+            <h1 class = "titulo-ajudar" id = "ajuda">Saiba como ajudar</h1>
+
+            <div class = "col col-ajudar">
+                <div class = "row row-ajudar">
+                    <div class = "quadros">
+                        <h4>DOE ONLINE</h4>
+                        <button class = "btn botao" type = "submit">DOAR POR PAYPAL</button>
+                    </div>
+    
+                    <div class = "quadros" style = "margin-left: 1.5vw;">
+                        <h4>SEJA VOLUNTÁRIO</h4>
+                        <button class = "btn botao" type = "submit">CONHEÇA O PROJETO</button>
+                    </div>
+                </div>
+                <div class = "row row-ajudar">
+                    <div class = "quadros">
+                        <h4>SEJA UMA EMPRESA PARCEIRA</h4>
+                        <button class = "btn botao" type = "submit">ENTRE EM CONTATO</button>
+                    </div>
+    
+                    <div class = "quadros" style = "margin-left: 1.5vw;">
+                        <h4 style = "font-size: 2.3vw;">ALIMENTOS, ROUPAS, BRINQUEDOS E OUTROS ÍTENS</h4>
+                        <button class = "btn botao" type = "submit">SAIBA OS PONTOS DE COLETA</button>
+                    </div>
+                </div>
+            </div>  <!-- Fim do como ajudar -->
 
         </div> <!-- Fim do Corpo -->
             
-        <div class = "rodape">
-            
+        <div class = "row rodape" id = "contato">
+
         </div> <!-- Fim do rodape -->
 
 
