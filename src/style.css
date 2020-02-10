@@ -32,6 +32,7 @@ body{
     font-family: 'Asap', sans-serif;
     justify-content: center;
     width: 100%;
+    height: 8vw;
 }
 
 .cabecalho nav{
@@ -79,7 +80,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 5.4vw 8px;
+    margin: 5.4vw;
+    padding-left: 5vw;
     width: 100%;
 }
 
@@ -378,28 +380,30 @@ label{
 }
 
 /*responsividade*/
-@media screen and (min-width: 1382px) {
+@media (min-width: 1800px){
     /*responsividade ok*/
 }
 
-@media screen and (min-width:992px) {
-    .footer__sociais .sociais__logo{
-        width: 20vw;
-    }
+@media (min-width: 1200px) and (max-width: 1799px) {
+    /*responsividade ok*/
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 900px) and (max-width: 1199px){
     
 }
 
-@media screen and (min-width:600px) {
-
-}
-
-@media screen and (min-width: 480px) {
+@media screen and (min-width:600px) and (max-width: 899px){
     
 }
 
-@media screen and (min-width:320px) {
+@media screen and (min-width: 480px) and (max-width:599px) {
+    
+}
+
+@media screen and (min-width:320px) and (max-width: 479px) {
+
+}
+
+@media screen and (max-width:319px) {
 
 }
