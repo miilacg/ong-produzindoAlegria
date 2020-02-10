@@ -3,15 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
         <link href = "style.css" rel = "stylesheet">
-        <script type = "text/javascript" src = "index.js"></script>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin = "anonymous">
+        
         <title>Produzindo Alegria</title>
         <link rel="shortout icon" href="imagens/logo-circulo.png" type = "image/x-png">    
     </head>
     <body>
         <!--Início header-->
-        <div class="cabecalho">
+        <div class = "cabecalho">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#"><img src = "imagens/logo-produzindo-alegria.svg" alt = "logo da ONG Prduzindo Alegria"></a>
                 <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarSupportedContent"
@@ -107,31 +109,39 @@
                 <div class = "row row-ajudar">
                     <div class = "quadros" style = "margin-left: 21.5vw;">
                         <div class = "imagem-ajudar" style = "background-image: url(imagens/doe_online.png);">
-                            <h4>DOE ONLINE</h4>
-                            <button class = "btn botao-ajuda" type = "submit">DOAR POR PAYPAL</button>
+                            <div class = "legenda online">
+                                <h4>DOE ONLINE</h4>
+                                <button class = "btn botao" type = "submit">DOAR POR PAYPAL</button>
+                            </div>
                         </div>
                     </div>
     
                     <div class = "quadros" style = "margin-left: 1.5vw;">
                         <div class = "imagem-ajudar" style = "background-image: url(imagens/seja_voluntario.png);">
-                            <h4>SEJA VOLUNTÁRIO</h4>
-                            <button class = "btn botao-ajuda" type = "submit">INSCREVA-SE</button>
+                            <div class = "legenda voluntario">
+                                <h4>SEJA VOLUNTÁRIO</h4>
+                                <button class = "btn botao" type = "submit" style = "margin-left: 4.5vw;">INSCREVA-SE</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class = "row row-ajudar">
                     <div class = "quadros" style = "margin-left: 21.5vw;">
                         <div class = "imagem-ajudar" style = "background-image: url(imagens/seja_uma_empresa_parceira.png);">
-                            <h4>SEJA UMA EMPRESA PARCEIRA</h4>
-                            <button class = "btn botao-ajuda" type = "submit">INSCREVA-SE</button>
+                            <div class = "legenda empresa">
+                                <h4>SEJA UMA EMPRESA PARCEIRA</h4>
+                                <button class = "btn botao" type = "submit" style = "margin-left: 1.6vw;">INSCREVA-SE</button>
+                            </div>
                         </div>                        
                     </div>
     
                     <div class = "quadros" style = "margin-left: 1.5vw;">
                         <div class = "imagem-ajudar" style = "background-image: url(imagens/doe_outros_itens.png);">
-                            <h4>DOE OUTROS ÍTENS</h4>
-                            <h5>Doe itens de limpeza e higiene pessoal, brinquedos e roupas</h5>
-                            <button class = "btn botao-ajuda" type = "submit">ENTRE EM CONTATO</button>
+                            <div class = "legenda outros">
+                                <h4>DOE OUTROS ÍTENS</h4>
+                                <h5 style = "width: 22vw;">Doe itens de limpeza e higiene pessoal, brinquedos e roupas</h5>
+                                <a href = "http://api.whatsapp.com/send?1=pt_BR&phone=5531991642941"><button class = "btn botao" type = "submit" style = "margin-left: 3.6vw;">ENTRE EM CONTATO</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -146,20 +156,30 @@
             <div class = "col footer__contato">
                 <h5>CONTATO</h5>
                 <h6>produzindonalegria@gmail.com</h6>
-                <h6>(31) xxxxx-xxxx</h6>
-                <h6>(31) xxxxx-xxxx</h6>
+                <div class = "col telefones">
+                    <div class = "row telefones">
+                        <h6><img src = "imagens/whatsapp.png" alt = "logo do whatsapp" style = "width: 1vw; margin-right: .5vw; margin-left: -1.5vw"><span style = "font-size: .7vw">(31) </span>99164-2941</h6>
+                        <h6><span style = "font-size: .7vw">(31) </span>99544-8899</h6>
+                        <h6><span style = "font-size: .7vw">(31) </span>99406-4255</h6>
+                    </div>
+                    <div class = "row telefones">
+                        <h6><span style = "font-size: .7vw">(31) </span>99737-7723</h6>
+                        <h6><span style = "font-size: .7vw">(31) </span>99440-4106</h6>
+                        <h6><span style = "font-size: .7vw">(31) </span>98515-3263</h6>
+                    </div>
+                </div>                
             </div>
             <div class = "col footer__sociais">
                 <h5>FIQUE POR DENTRO</h5>
                 <div class = "row sociais__logo">
                     <div class = "col logo__instagram">
-                        <img src = "imagens/instagram.png" alt = "logo do instagram">
+                        <a href = "https://www.instagram.com/produzindoalegria/"><img src = "imagens/instagram.png" alt = "logo do instagram"></a>
                     </div>
                     <div class = "col logo__facebook">
-                        <img src = "imagens/facebook.png" alt = "logo do facebook">        
+                        <a href = "https://www.facebook.com/produzindoalegria/"><img src = "imagens/facebook.png" alt = "logo do facebook" style = "margin-left: -1.2vw;"></a>        
                     </div>
                     <div class = "col logo__linkedin">
-                        <img src = "imagens/linkedin.png" alt = "logo do linkedin">
+                        <img src = "imagens/linkedin.png" alt = "logo do linkedin" style = "margin-left: -2.4vw;">
                     </div>
                 </div>
             </div>
