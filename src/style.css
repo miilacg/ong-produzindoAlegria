@@ -667,11 +667,11 @@ label{
 
     /*como ajudar*/
     .quadros.doe{
-        margin-left: 16vw;
+        margin-left: 18vw;
     }
 
     .quadros.parceira{
-        margin-left: 16vw;
+        margin-left: 18vw;
     }
 
     .quadros h4{
@@ -812,11 +812,6 @@ label{
         position: relative;
     }
 
-    .texto1{
-        text-align: center;
-        margin-bottom: 3vw;
-    }
-
     .btn.botao-flickr{
         position: absolute;
         left: 50%;
@@ -829,46 +824,18 @@ label{
         line-height: 2.6vw;
     }
 
-    .col.flickr{
-        margin-bottom: 3.5vw;
-    }
-
-    .texto{
-        display: none;
-    }
-    
-    .texto1{
-        display: block;
-    }
-    
-    .flickr{
-        display: block;
-    }
-
     /*como ajudar*/
     .quadros.doe{
-        margin-left: 16vw;
+        margin-left: 18vw;
     }
 
     .quadros.parceira{
-        margin-left: 16vw;
+        margin-left: 18vw;
     }
 
     .quadros h4{
         font-size: 3vw;
         line-height: 3.3vw;
-    }
-
-    .quadros h5{
-        font-size: 1.2vw;
-        line-height: 1.4vw;
-        letter-spacing: 0.24em;
-        margin-top: 2vw;
-    }
-
-    .quadros{
-        width: 35vw;
-        height: 35vw;
     }
 
     .col-ajudar .titulo-ajudar{
