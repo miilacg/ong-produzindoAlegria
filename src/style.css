@@ -931,7 +931,7 @@ label{
     }
 }
 
-@media (min-width: 510px) and (max-width: 649px){
+@media (min-width: 435px) and (max-width: 649px){
     .navbar-toggler{
         font-size: .6rem;
     }
@@ -1088,19 +1088,10 @@ label{
     }
 
     /*banner rosa*/
-    label{
-        font-size: 4.4vw;
-        line-height: 5vw;
-    }
-
     .img-galeria{
         width: 33vw;
         height: 33vw;
         margin-left: -2vw;
-    }
-
-    .col.flickr{
-        margin-bottom: 5vw;
     }
 
     /*como ajudar*/
@@ -1127,18 +1118,6 @@ label{
         margin-left: 31vw;
     }
 
-    .quadros h4{
-        font-size: 4vw;
-        line-height: 4.3vw;
-        text-align: center;
-    }
-
-    .quadros h5{
-        font-size: 1.6vw;
-        line-height: 2vw;
-        letter-spacing: 0.24em;
-    }
-
     .quadros{
         width: 45vw;
         height: 45vw;
@@ -1151,50 +1130,7 @@ label{
         margin-bottom: 4vw;
         margin-top: 7vw;
         margin-left: 28vw;
-    }
-
-    .btn.botao{
-        width: 21vw;
-        height: 3.9vw;
-        font-size: 1.55vw;
-    }    
-
-    .legenda{
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%);
-        margin-top: -7vw;
-    }
-
-    .legenda.empresa{
-        width: 27vw;
-        margin-top: -9vw;
-        margin-left: 1.2vw;
-    }
-
-    .legenda.outros{
-        margin-top: -13.5vw;
-    }
-
-    .legenda.online{   
-        width: 18vw;
-    }
-
-    .legenda.outros h5{
-        width: 32vw;
-    }
-
-    .legenda.outros .botao{
-        margin-left: 5.5vw;
-    }
-
-    .legenda.online .botao{
-        margin-left: -1.2vw;
-    }
-
-    .legenda.voluntario a{
-        margin-left: 2vw;
-    }
+    }  
 
     /*rodape*/
     .footer{
@@ -1234,7 +1170,7 @@ label{
 
     .footer .footer__sociais{
         margin-left: 13vw;
-        margin-top: 7vw;
+        margin-top: 13vw;
         width: 40vw;
         text-align: center;
     }
