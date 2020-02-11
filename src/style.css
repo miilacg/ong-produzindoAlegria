@@ -466,7 +466,7 @@ label{
 }
 
 /*responsividade*/
-@media (min-width: 1800px){
+@media (min-width: 1330px) {
     /*banner rosa*/
     .quadro-branco{
         margin: 0 2.5vw;
@@ -477,16 +477,7 @@ label{
     }
 } 
 
-@media (min-width: 1330px) and (max-width: 1799px){
-    /*banner rosa*/
-    .quadro-branco{
-        margin: 0 2.5vw;
-    }
-
-    .texto{
-        margin-top: 4vw;
-    }
-
+@media (min-width: 1000px) and (max-width: 1799px){
     /*como ajudar*/
     .legenda.empresa{
         margin-left: .5vw;
@@ -497,37 +488,14 @@ label{
     }
 }
 
-@media screen and (min-width: 1100px) and (max-width: 1329px){
+@media screen and (min-width: 1000px) and (max-width: 1329px){
     /*banner rosa*/
     .quadro-branco{
         margin: 0 2.1vw;
-    }
-
-    /*como ajudar*/
-    .legenda.empresa{
-        margin-left: .5vw;
-    }
-
-    .legenda.empresa .botao{
-        margin-left: 5.8vw;
     }
 } 
 
 @media screen and (min-width: 1000px) and (max-width: 1099px){
-    /*banner rosa*/
-    .quadro-branco{
-        margin: 0 2.1vw;
-    }
-
-    /*como ajudar*/
-    .legenda.empresa{
-        margin-left: .5vw;
-    }
-
-    .legenda.empresa .botao{
-        margin-left: 5.8vw;
-    }
-
     /*rodape*/ 
     .footer__sociais .sociais__logo .logo__facebook{
         margin-left: -1.5vw
@@ -538,7 +506,7 @@ label{
     }
 }
 
-@media screen and (min-width: 850px) and (max-width: 999px){
+@media screen and (min-width: 700px) and (max-width: 999px){
     /*row sobre nós*/
     .row_sobre-nos{
         flex-direction: column;
@@ -633,7 +601,6 @@ label{
         font-size: 2vw;
         text-align: center;
     }
-
 
     /*banner rosa*/
     label{
@@ -831,122 +798,18 @@ label{
         width: 100%;
     }
 
-    .row_sobre-nos .sobre-nos{
-        width: 100%;
-        max-width: 100%;
-        position: relative;
-    }
-
-    /*sobre nos*/
-    .titulo-sobre-nos{
-        font-size: 6vw;
-        margin-bottom: 4vw;
-        line-height: 4.5vw;
-        text-align: center;
-    }
-
-    .sobre-nos p{
-        font-size: 2vw;
-        line-height: 2.5vw;
-        text-align: justify;
-    }
-
-    .sobre-nos p strong{
-        font-size: 2.4vw;
-        line-height: 2.7vw;
-    }
-
-    .btn.botao-ajuda{
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%);
-        width: 22vw;
-        height: 4.5vw;
-        font-size: 1.65vw;
-        margin-top: 1.3vw;
-        margin-bottom: 3vw;
-    }
-
-    /*fazemos isso e muito mais*/
-    .body .row_sobre-nos .fazemos-isso{
-        width: 100%;
-        max-width: 100%;    
-        padding-left: 3.5vw;
-        padding-top: 4vw;
-    }
-
-    .body .row_sobre-nos .fazemos-isso .fazemos-isso__title{
-        font-size: 2vw;
-        line-height: 2.3vw;
-        margin-top: 4vw;
-    }
-
-    .body .row_sobre-nos .fazemos-isso .caixas{
-        display: flex;
-        flex-direction: row;
-        margin-top: 3vw;
-        margin-left: 7vw;
-    }
-
-    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card{
-        max-width: 31vw;
-    }
-
-    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card img{
-        height: auto;
-        width: 20vw;
-    }
-
-    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card .card__featured{
-        font-size: 6.6vw;
-        line-height: 6.7vw;
-        margin: 5% 0;
-        text-align: center;
-        font-weight: bold;        
-    }
-
-    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card .card__featured span{
-        line-height: 2.1vw;
-        font-size: 2vw;
-        margin-right: 0.9vw;    
-        font-weight: lighter;
-    }
-    
-    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card p{
-        line-height: 2.1vw;
-        font-size: 2vw;
-        text-align: center;
-    }
-
-
     /*banner rosa*/
-    label{
-        font-size: 5vw;
-        line-height: 5.5vw;
-    }
-
     .row-galeria{
         flex-direction: column;
         width: 100%;
-        height: auto;
         padding-top: 4vw;
         padding-left: 32vw;
+        padding-bottom: 12vw;
     }
 
     .row-galeria .col{
         max-width: 36.5vw;
         position: relative;
-    }
-
-    .quadro-branco{
-        width: 35vw;
-        height: 35vw;
-        margin-bottom: 1.5vw;
-    }
-
-    .img-galeria{
-        width: 33vw;
-        height: 33vw;
     }
 
     .texto1{
@@ -959,7 +822,7 @@ label{
         left: 50%;
         transform: translate(-50%);
 
-        margin-top: 2vw;        
+        margin-top: 4vw;    
         width: 24vw;
         height: 4vw;
         font-size: 1.8vw;
@@ -1212,9 +1075,9 @@ label{
     .row-galeria{
         flex-direction: column;
         width: 100%;
-        height: auto;
         padding-top: 4vw;
         padding-left: 32vw;
+        padding-bottom: 15vw;
     }
 
     .row-galeria .col{
@@ -1243,7 +1106,7 @@ label{
         left: 50%;
         transform: translate(-50%);
 
-        margin-top: 2vw;        
+        margin-top: 5vw;        
         width: 24vw;
         height: 4vw;
         font-size: 1.8vw;
@@ -1499,9 +1362,9 @@ label{
     .row-galeria{
         flex-direction: column;
         width: 100%;
-        height: auto;
         padding-top: 4vw;
         padding-left: 32vw;
+        padding-bottom: 15vw;
     }
 
     .row-galeria .col{
@@ -1530,7 +1393,7 @@ label{
         left: 50%;
         transform: translate(-50%);
 
-        margin-top: 2vw;        
+        margin-top: 5vw;        
         width: 24vw;
         height: 5vw;
         font-size: 1.8vw;
@@ -1803,10 +1666,9 @@ label{
     .row-galeria{
         flex-direction: column;
         width: 100%;
-        height: auto;
         padding-top: 4vw;
         padding-left: 32vw;
-        padding-bottom: 9vw;
+        padding-bottom: 15vw;
     }
 
     .row-galeria .col{
@@ -1835,7 +1697,7 @@ label{
         left: 50%;
         transform: translate(-50%);
 
-        margin-top: 2vw;      
+        margin-top: 5vw;      
         width: 24vw;
         height: 5vw;
         font-size: 1.8vw;
