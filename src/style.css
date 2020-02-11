@@ -453,6 +453,18 @@ label{
     width: 2.5vw;
 }
 
+.footer__contato .col.telefones .row.telefones h6 span{
+    font-size: .8vw;
+}
+
+.col.telefones1{
+    display: block;
+}
+
+.col.telefones2{
+    display: none;
+}
+
 /*responsividade*/
 @media (min-width: 1800px){
     /*banner rosa*/
@@ -526,7 +538,7 @@ label{
     }
 }
 
-@media screen and (min-width: 850px) and (max-width: 999px) {
+@media screen and (min-width: 850px) and (max-width: 999px){
     /*row sobre nós*/
     .row_sobre-nos{
         flex-direction: column;
@@ -804,9 +816,13 @@ label{
         margin-bottom: 2vw;
         margin-left: 20vw;
     }
+
+    .footer__logo2 img{
+        width: 17vw;
+    }
 }
 
-@media screen and (min-width: 700px) and (max-width: 849px) {
+@media screen and (min-width: 700px) and (max-width: 849px){
     /*row sobre nós*/
     .row_sobre-nos{
         flex-direction: column;
@@ -1084,8 +1100,1636 @@ label{
         margin-bottom: 2vw;
         margin-left: 20vw;
     }
+
+    .footer__logo2 img{
+        width: 17vw;
+    }
 }
 
-@media screen and (max-width:699px) {
+@media screen and (min-width: 650px) and (max-width: 699px){
+    /*row sobre nós*/
+    .row_sobre-nos{
+        flex-direction: column;
+        padding-right: 11vw;
+        padding-left: 8vw;
+        width: 100%;
+    }
 
+    .row_sobre-nos .sobre-nos{
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+    }
+
+    /*sobre nos*/
+    .titulo-sobre-nos{
+        font-size: 6vw;
+        margin-bottom: 4vw;
+        line-height: 4.5vw;
+        text-align: center;
+    }
+
+    .sobre-nos p{
+        font-size: 2vw;
+        line-height: 2.5vw;
+        text-align: justify;
+    }
+
+    .sobre-nos p strong{
+        font-size: 2.4vw;
+        line-height: 2.7vw;
+    }
+
+    .btn.botao-ajuda{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 22vw;
+        height: 4.5vw;
+        font-size: 1.65vw;
+        margin-top: 1.3vw;
+        margin-bottom: 3vw;
+    }
+
+    /*fazemos isso e muito mais*/
+    .body .row_sobre-nos .fazemos-isso{
+        width: 100%;
+        max-width: 100%;    
+        padding-left: 3.5vw;
+        padding-top: 4vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .fazemos-isso__title{
+        font-size: 2vw;
+        line-height: 2.3vw;
+        margin-top: 4vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3vw;
+        margin-left: 9.5vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card{
+        max-width: 29vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card img{
+        height: auto;
+        width: 20vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card .card__featured{
+        font-size: 6.6vw;
+        line-height: 6.7vw;
+        margin: 5% 0;
+        text-align: center;
+        font-weight: bold;        
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card .card__featured span{
+        line-height: 2.1vw;
+        font-size: 2vw;
+        margin-right: 0.9vw;    
+        font-weight: lighter;
+    }
+    
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card p{
+        line-height: 2.1vw;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+
+    /*banner rosa*/
+    label{
+        font-size: 4.8vw;
+        line-height: 5vw;
+    }
+
+    .row-galeria{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-top: 4vw;
+        padding-left: 32vw;
+    }
+
+    .row-galeria .col{
+        max-width: 35.4vw;
+        position: relative;
+    }
+
+    .quadro-branco{
+        width: 35vw;
+        margin-bottom: 1.5vw;
+    }
+
+    .img-galeria{
+        width: 33vw;
+        height: 33vw;
+        margin-left: -1vw;
+    }
+
+    .texto1{
+        text-align: center;
+        margin-bottom: 3vw;
+    }
+
+    .btn.botao-flickr{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+
+        margin-top: 2vw;        
+        width: 24vw;
+        height: 4vw;
+        font-size: 1.8vw;
+        line-height: 2.6vw;
+    }
+
+    .col.flickr{
+        margin-bottom: 3.5vw;
+    }
+
+    .texto{
+        display: none;
+    }
+    
+    .texto1{
+        display: block;
+    }
+    
+    .flickr{
+        display: block;
+    }
+
+    /*como ajudar*/
+    .quadros.doe{
+        margin-left: 17vw;
+    }
+
+    .quadros.parceira{
+        margin-left: 17vw;
+    }
+
+    .quadros h4{
+        font-size: 3vw;
+        line-height: 3.3vw;
+    }
+
+    .quadros h5{
+        font-size: 1.2vw;
+        line-height: 1.4vw;
+        letter-spacing: 0.24em;
+        margin-top: 2vw;
+    }
+
+    .quadros{
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .col-ajudar .titulo-ajudar{
+        font-size: 4.5vw;
+        line-height: 5vw;
+        margin-bottom: 2.5vw;
+        margin-top: 4vw;
+    }
+
+    .btn.botao{
+        width: 16vw;
+        height: 3.5vw;
+        font-size: 1.2vw;
+    }    
+
+    .legenda{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        padding: 0px 0px 0px 0px;
+        margin-top: -5.5vw;
+    }
+
+    .legenda.empresa{
+        width: 20vw;
+        margin-top: -8vw;
+    }
+
+    .legenda.outros{
+        margin-top: -10.5vw;
+    }
+    
+    .legenda.outros h5{
+        width: 25vw;
+    }
+
+    .legenda.outros .botao{
+        margin-left: 4vw;
+    }
+
+    /*rodape*/
+    .footer{
+        flex-direction: column;
+        height: auto;
+        padding-top: 3vw;
+        padding-left: 20vw;
+        margin-bottom: .5vw;
+    }
+
+    .footer h5{
+        font-size: 2.7vw;
+        line-height: 2.3vw;
+        margin-bottom: 1.5vw;
+    }
+
+    .footer h6{
+        font-size: 1.5vw;
+        line-height: 1.8vw;
+        margin-right: 1.5vw;
+    }
+
+    .footer .footer__contato{        
+        margin-left: -6vw;
+    }
+
+    .footer__contato img{
+        width: 1.5vw; 
+        margin-right: .5vw; 
+        margin-left: -2vw
+    }
+
+    .footer__sociais{
+        margin-left: -30vw;
+    }
+
+    .footer__sociais .sociais__logo{
+        width: 21vw;
+        margin-top: .8vw;
+    }
+
+    .footer__sociais .sociais__logo .col img{
+        width: 3.3vw;
+    }
+
+    .footer__logo1{
+        display: none;
+    }
+    
+    .footer__logo2{
+        display: block;
+        margin-top: 2.5vw;
+        margin-bottom: 2vw;
+        margin-left: 20vw;
+    }
+
+    .footer__logo2 img{
+        width: 17vw;
+    }
+}
+
+@media (min-width: 510px) and (max-width: 649px){
+    .navbar-toggler{
+        font-size: .6rem;
+    }
+
+    /*row sobre nós*/
+    .row_sobre-nos{
+        flex-direction: column;
+        padding-right: 11vw;
+        padding-left: 8vw;
+        width: 100%;
+    }
+
+    .row_sobre-nos .sobre-nos{
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+    }
+
+    /*sobre nos*/
+    .titulo-sobre-nos{
+        font-size: 6vw;
+        margin-bottom: 4vw;
+        line-height: 4.5vw;
+        text-align: center;
+    }
+
+    .sobre-nos p{
+        font-size: 2vw;
+        line-height: 2.5vw;
+        text-align: justify;
+    }
+
+    .sobre-nos p strong{
+        font-size: 2.4vw;
+        line-height: 2.7vw;
+    }
+
+    .btn.botao-ajuda{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 22vw;
+        height: 4.5vw;
+        font-size: 1.65vw;
+        margin-top: 1.3vw;
+        margin-bottom: 3vw;
+    }
+
+    /*fazemos isso e muito mais*/
+    .body .row_sobre-nos .fazemos-isso{
+        width: 100%;
+        max-width: 100%;    
+        padding-left: 3.5vw;
+        padding-top: 4vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .fazemos-isso__title{
+        font-size: 2vw;
+        line-height: 2.3vw;
+        margin-top: 4vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3vw;
+        margin-left: 9.5vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card{
+        max-width: 29vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card img{
+        height: auto;
+        width: 20vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card .card__featured{
+        font-size: 6.6vw;
+        line-height: 6.7vw;
+        margin: 5% 0;
+        text-align: center;
+        font-weight: bold;        
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card .card__featured span{
+        line-height: 2.1vw;
+        font-size: 2vw;
+        margin-right: 0.9vw;    
+        font-weight: lighter;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card p{
+        line-height: 2.1vw;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    /*banner rosa*/
+    label{
+        font-size: 4.4vw;
+        line-height: 5vw;
+    }
+
+    .row-galeria{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-top: 4vw;
+        padding-left: 32vw;
+    }
+
+    .row-galeria .col{
+        max-width: 35.4vw;
+        position: relative;
+    }
+
+    .quadro-branco{
+        width: 35vw;
+        margin-bottom: 1.5vw;
+    }
+
+    .img-galeria{
+        width: 33vw;
+        height: 33vw;
+        margin-left: -1.2vw;
+    }
+
+    .texto1{
+        text-align: center;
+        margin-bottom: 3vw;
+    }
+
+    .btn.botao-flickr{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+
+        margin-top: 2vw;        
+        width: 24vw;
+        height: 5vw;
+        font-size: 1.8vw;
+        line-height: 2.6vw;
+    }
+
+    .col.flickr{
+        margin-bottom: 5vw;
+    }
+
+    .texto{
+        display: none;
+    }
+
+    .texto1{
+        display: block;
+    }
+
+    .flickr{
+        display: block;
+    }
+
+    /*como ajudar*/
+    .quadros.doe{
+        margin-left: 12vw;
+    }
+
+    .quadros.parceira{
+        margin-left: 12vw;
+    }
+
+    .quadros h4{
+        font-size: 4vw;
+        line-height: 4.3vw;
+        text-align: center;
+    }
+
+    .quadros h5{
+        font-size: 1.6vw;
+        line-height: 2vw;
+        letter-spacing: 0.24em;
+    }
+
+    .quadros{
+        width: 40vw;
+        height: 40vw;
+    }
+
+    .col-ajudar .titulo-ajudar{
+        font-size: 5vw;
+        line-height: 5.5vw;
+        margin-bottom: 2.5vw;
+        margin-top: 4.5vw;
+    }
+
+    .btn.botao{
+        width: 21vw;
+        height: 3.9vw;
+        font-size: 1.55vw;
+    }    
+
+    .legenda{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: -7vw;
+    }
+
+    .legenda.empresa{
+        width: 27vw;
+        margin-top: -9vw;
+        margin-left: 1.2vw;
+    }
+
+    .legenda.outros{
+        margin-top: -13.5vw;
+    }
+
+    .legenda.online{   
+        width: 18vw;
+    }
+
+    .legenda.outros h5{
+        width: 32vw;
+    }
+
+    .legenda.outros .botao{
+        margin-left: 5.5vw;
+    }
+
+    .legenda.online .botao{
+        margin-left: -1.2vw;
+    }
+
+    .legenda.voluntario a{
+        margin-left: 2vw;
+    }
+
+    /*rodape*/
+    .footer{
+        flex-direction: column;
+        height: auto;
+        padding-top: 3vw;
+        padding-left: 20vw;
+        margin-bottom: .5vw;
+    }
+
+    .footer h5{
+        font-size: 3vw;
+        line-height: 3.3vw;
+        margin-bottom: 1.5vw;
+    }
+
+    .footer h6{
+        font-size: 1.8vw;
+        line-height: 2vw;
+        margin-right: 1.5vw;
+    }
+
+    .footer .footer__contato{        
+        margin-left: -10vw;
+        margin-bottom: -5vw;
+    }
+
+    .footer__contato img{
+        width: 1.8vw; 
+        margin-right: .5vw; 
+        margin-left: -2.2vw
+    }
+
+    .footer__sociais{
+        margin-left: -30vw;
+    }
+
+    .footer__sociais .sociais__logo{
+        width: 24vw;
+        margin-top: .8vw;
+    }
+
+    .footer__sociais .sociais__logo .col img{
+        width: 3.3vw;
+    }
+
+    .footer__logo1{
+        display: none;
+    }
+
+    .footer__logo2{
+        display: block;
+        margin-top: 1vw;
+        margin-bottom: 2vw;
+        margin-left: 20vw;
+    }
+
+    .footer__contato .col.telefones .row.telefones h6 span{
+        font-size: 1.2vw;
+    }
+
+    .footer__logo2 img{
+        width: 17vw;
+    }
+}
+
+@media (min-width: 435px) and (max-width: 509px){
+    .cabecalho .navbar a img{
+        width: 25vw;
+    }
+
+    /*row sobre nós*/
+    .row_sobre-nos{
+        flex-direction: column;
+        padding-right: 11vw;
+        padding-left: 8vw;
+        width: 100%;
+    }
+
+    .row_sobre-nos .sobre-nos{
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+    }
+
+    /*sobre nos*/
+    .titulo-sobre-nos{
+        font-size: 6vw;
+        margin-bottom: 4vw;
+        line-height: 4.5vw;
+        text-align: center;
+    }
+
+    .sobre-nos p{
+        font-size: 2vw;
+        line-height: 2.5vw;
+        text-align: justify;
+    }
+
+    .sobre-nos p strong{
+        font-size: 2.4vw;
+        line-height: 2.7vw;
+    }
+
+    .btn.botao-ajuda{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 22vw;
+        height: 4.5vw;
+        font-size: 1.65vw;
+        margin-top: 1vw;
+        margin-bottom: 4vw;
+    }
+
+    /*fazemos isso e muito mais*/
+    .body .row_sobre-nos .fazemos-isso{
+        width: 100%;
+        max-width: 100%;    
+        padding-left: 3.5vw;
+        padding-top: 4vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .fazemos-isso__title{
+        font-size: 2vw;
+        line-height: 2.3vw;
+        margin-top: 4vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3vw;
+        margin-left: 9.5vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card{
+        max-width: 29vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card img{
+        height: auto;
+        width: 20vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card .card__featured{
+        font-size: 6.6vw;
+        line-height: 6.7vw;
+        margin: 5% 0;
+        text-align: center;
+        font-weight: bold;        
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card .card__featured span{
+        line-height: 2.1vw;
+        font-size: 2vw;
+        margin-right: 0.9vw;    
+        font-weight: lighter;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card p{
+        line-height: 2.1vw;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    /*banner rosa*/
+    label{
+        font-size: 4.4vw;
+        line-height: 5vw;
+    }
+
+    .row-galeria{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-top: 4vw;
+        padding-left: 32vw;
+        padding-bottom: 9vw;
+    }
+
+    .row-galeria .col{
+        max-width: 35.4vw;
+        position: relative;
+    }
+
+    .quadro-branco{
+        width: 35vw;
+        margin-bottom: 1.5vw;
+    }
+
+    .img-galeria{
+        width: 33vw;
+        height: 33vw;
+        margin-left: -2vw;
+    }
+
+    .texto1{
+        text-align: center;
+        margin-bottom: 3vw;
+    }
+
+    .btn.botao-flickr{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+
+        margin-top: 2vw;      
+        width: 24vw;
+        height: 5vw;
+        font-size: 1.8vw;
+        line-height: 2.6vw;
+    }
+
+    .col.flickr{
+        margin-bottom: 5vw;
+    }
+
+    .texto{
+        display: none;
+    }
+
+    .texto1{
+        display: block;
+    }
+
+    .flickr{
+        display: block;
+    }
+
+    /*como ajudar*/
+    .col-ajudar{
+        flex-direction: column;
+        padding-bottom: 10vw;
+        padding-top: 3vw;
+        margin-top: 0px;
+    }
+
+    .quadros.doe{
+        margin-left: 31vw;
+    }
+
+    .quadros.seja{
+        margin-left: 31vw;
+    }
+
+    .quadros.parceira{
+        margin-left: 31vw;
+    }
+
+    .quadros.itens{
+        margin-left: 31vw;
+    }
+
+    .quadros h4{
+        font-size: 4vw;
+        line-height: 4.3vw;
+        text-align: center;
+    }
+
+    .quadros h5{
+        font-size: 1.6vw;
+        line-height: 2vw;
+        letter-spacing: 0.24em;
+    }
+
+    .quadros{
+        width: 45vw;
+        height: 45vw;
+    }
+
+    .col-ajudar .titulo-ajudar{
+        width: 45vw;
+        font-size: 5vw;
+        line-height: 5.5vw;
+        margin-bottom: 4vw;
+        margin-top: 7vw;
+        margin-left: 28vw;
+    }
+
+    .btn.botao{
+        width: 21vw;
+        height: 3.9vw;
+        font-size: 1.55vw;
+    }    
+
+    .legenda{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: -7vw;
+    }
+
+    .legenda.empresa{
+        width: 27vw;
+        margin-top: -9vw;
+        margin-left: 1.2vw;
+    }
+
+    .legenda.outros{
+        margin-top: -13.5vw;
+    }
+
+    .legenda.online{   
+        width: 18vw;
+    }
+
+    .legenda.outros h5{
+        width: 32vw;
+    }
+
+    .legenda.outros .botao{
+        margin-left: 5.5vw;
+    }
+
+    .legenda.online .botao{
+        margin-left: -1.2vw;
+    }
+
+    .legenda.voluntario a{
+        margin-left: 2vw;
+    }
+
+    /*rodape*/
+    .footer{
+        flex-direction: column;
+        height: auto;
+        margin-top: 0vw;
+    }
+
+    .response{
+        flex-direction: column;
+    }
+
+    .footer h5{
+        font-size: 3.7vw;
+        line-height: 4vw;
+        margin-bottom: 2vw;
+    }
+
+    .footer h6{
+        font-size: 2.4vw;
+        line-height: 3vw;
+        margin-right: 2.5vw;
+        font-weight: lighter;
+    }
+
+    .footer .footer__contato{        
+        margin-left: 27vw;
+        width: 100vw;  
+        margin-top: 6vw;      
+    }
+
+    .footer__contato img{
+        width: 2.4vw; 
+        margin-right: 1vw; 
+        margin-left: -3.3vw
+    }
+
+    .footer .footer__sociais{
+        margin-left: 27vw;
+        margin-top: 7vw;
+        width: 40vw;
+        text-align: center;
+    }
+
+    .footer__sociais .sociais__logo{
+        margin-top: .8vw;
+        width: 30vw;
+        margin-left: 1vw;
+        margin-bottom: 7vw;
+    }
+
+    .footer__sociais .sociais__logo .col img{
+        width: 4.3vw;
+    }
+
+    .footer__logo1{
+        display: none;
+    }
+
+    .footer__logo2{
+        display: block;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        margin-left: 20vw;
+    }
+
+    .footer__logo2 img{
+        width: 30vw;
+        margin-left: 4vw;
+    }
+
+    .footer__contato .col.telefones2 .row.telefones h6 span{
+        font-size: 1.5vw;
+    }
+
+    .col.telefones1{
+        display: none;
+    }
+    
+    .col.telefones2{
+        display: block;
+    }
+}
+
+@media (min-width: 355px) and (max-width: 434px){
+    .cabecalho .navbar a img{
+        width: 35vw;
+    }
+
+    /*row sobre nós*/
+    .row_sobre-nos{
+        flex-direction: column;
+        padding-right: 11vw;
+        padding-left: 8vw;
+        width: 100%;
+    }
+
+    .row_sobre-nos .sobre-nos{
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+    }
+
+    /*sobre nos*/
+    .titulo-sobre-nos{
+        font-size: 7.5vw;
+        margin-bottom: 4vw;
+        line-height: 8vw;
+        text-align: center;
+    }
+
+    .sobre-nos p{
+        font-size: 3.5vw;
+        line-height: 4.2vw;
+        text-align: justify;
+    }
+
+    .sobre-nos p strong{
+        font-size: 3.8vw;
+        line-height: 4.5vw;
+    }
+
+    .btn.botao-ajuda{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 30vw;
+        height: 5vw;
+        font-size: 2vw;
+        padding-bottom: 1vw;
+    }
+
+    /*fazemos isso e muito mais*/
+    .body .row_sobre-nos .fazemos-isso{
+        width: 100%;
+        max-width: 100%;    
+        padding-left: 5.2vw;
+        padding-top: 4vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .fazemos-isso__title{
+        font-size: 2.7vw;
+        line-height: 3vw;
+        margin-top: 8vw;
+        margin-bottom: 4vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3vw;
+        margin-bottom: 4.5vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card{
+        max-width: 40vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card img{
+        height: auto;
+        width: 30vw;
+        margin: 0vw 1vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card .card__featured{
+        font-size: 8vw;
+        line-height: 8.7vw;
+        margin: 5% 0;
+        text-align: center;
+        font-weight: bold;        
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card .card__featured span{
+        line-height: 2.8vw;
+        font-size: 2.5vw;
+        margin-right: 0.9vw;    
+        font-weight: lighter;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card p{
+        line-height: 2.8vw;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    /*banner rosa*/
+    label{
+        font-size: 4.7vw;
+        line-height: 5.5vw;
+        margin-top: 2vw;
+        font-weight: lighter;
+    }
+
+    .row-galeria{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-top: 4vw;
+        padding-left: 30vw;
+        padding-bottom: 15vw;
+    }
+
+    .row-galeria .col{
+        max-width: 37.7vw;
+        position: relative;
+    }
+
+    .quadro-branco{
+        margin-bottom: 1.7vw;
+    }
+
+    .img-galeria{
+        width: 35vw;
+        height: 35vw;
+        margin-left: -2.2vw;
+    }
+
+    .texto1{
+        text-align: center;
+        margin-bottom: 3vw;
+    }
+
+    .btn.botao-flickr{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+
+        margin-top: 6.5vw;     
+        width: 28vw;
+        height: 5vw;
+        font-size: 2vw;
+        line-height: 2.6vw;
+        padding-bottom: 1.5vw;
+    }
+
+    .col.flickr{
+        margin-bottom: 5vw;
+    }
+
+    .texto{
+        display: none;
+    }
+
+    .texto1{
+        display: block;
+    }
+
+    .flickr{
+        display: block;
+    }
+
+    /*como ajudar*/
+    .col-ajudar{
+        flex-direction: column;
+        padding-bottom: 10vw;
+        padding-top: 1.8vw;
+        margin-top: 0px;
+    }
+
+    .quadros.doe{
+        margin-left: 28.5vw;
+    }
+
+    .quadros.seja{
+        margin-left: 28.5vw;
+    }
+
+    .quadros.parceira{
+        margin-left: 28.5vw;
+    }
+
+    .quadros.itens{
+        margin-left: 28.5vw;
+    }
+
+    .quadros h4{
+        font-size: 5vw;
+        line-height: 5.3vw;
+        text-align: center;
+    }
+
+    .quadros h5{
+        font-size: 1.8vw;
+        line-height: 2.2vw;
+        letter-spacing: 0.24em;
+    }
+
+    .quadros{
+        width: 50vw;
+        height: 50vw;
+        margin-bottom: 1.5vw;
+    }
+
+    .col-ajudar .titulo-ajudar{
+        width: 45vw;
+        font-size: 5vw;
+        line-height: 5.5vw;
+        margin-bottom: 4vw;
+        margin-top: 7vw;
+        margin-left: 28vw;
+    }
+
+    .btn.botao{
+        width: 27vw;
+        height: 5vw;
+        font-size: 2vw;
+        margin-top: 1vw;
+    }    
+
+    .legenda{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: -10vw;
+    }
+
+    .legenda.empresa{
+        width: 35vw;
+        margin-top: -12vw;
+        margin-left: 1.2vw;
+    }
+
+    .legenda.outros{
+        margin-top: -15.5vw;
+        margin-left: 1vw;
+    }
+
+    .legenda.online{   
+        width: 25vw;
+    }
+
+    .legenda.outros h5{
+        width: 38vw;
+    }
+
+    .legenda.online .botao{
+        margin-left: -1vw;
+    }
+
+    .legenda.outros .botao{
+        margin-left: 5.5vw;
+    }
+
+    .legenda.empresa a{
+        margin-left: 2vw;
+    }
+
+    .legenda.voluntario a{
+        margin-left: 3.5vw;
+    }
+
+    /*rodape*/
+    .footer{
+        flex-direction: column;
+        height: auto;
+        margin-top: 0vw;
+    }
+
+    .response{
+        flex-direction: column;
+    }
+
+    .footer h5{
+        font-size: 5vw;
+        line-height: 5.5vw;
+        margin-bottom: 2vw;
+    }
+
+    .footer h6{
+        font-size: 3.5vw;
+        line-height: 4vw;
+        margin-right: 2.5vw;
+        font-weight: lighter;
+    }
+
+    .footer .footer__contato{        
+        margin-left: 20vw;
+        width: 100vw;  
+        margin-top: 6vw;      
+    }
+
+    .footer__contato img{
+        width: 3.5vw; 
+        margin-right: 1vw; 
+        margin-left: -4.4vw
+    }
+
+    .footer .footer__sociais{
+        margin-left: 15vw;
+        margin-top: 10vw;
+        width: 60vw;
+        text-align: center;
+    }
+
+    .footer__sociais .sociais__logo{
+        margin-top: .8vw;
+        width: 40vw;
+        margin-left: 6vw;
+        margin-bottom: 7vw;
+    }
+
+    .footer__sociais .sociais__logo .col img{
+        width: 6vw;
+    }
+
+    .footer__logo1{
+        display: none;
+    }
+
+    .footer__logo2{
+        display: block;
+        margin-top: 3vw;
+        margin-bottom: 10vw;
+        margin-left: 20vw;
+    }
+
+    .footer__logo2 img{
+        width: 43vw;
+        margin-left: -5vw;
+    }
+
+    .footer__contato .col.telefones2 .row.telefones h6 span{
+        font-size: 2vw;
+    }
+
+    .col.telefones1{
+        display: none;
+    }
+    
+    .col.telefones2{
+        display: block;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 354px){
+    .cabecalho .navbar a img{
+        width: 35vw;
+    }
+
+    /*row sobre nós*/
+    .row_sobre-nos{
+        flex-direction: column;
+        padding-right: 11vw;
+        padding-left: 8vw;
+        width: 100%;
+    }
+
+    .row_sobre-nos .sobre-nos{
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+    }
+
+    /*sobre nos*/
+    .titulo-sobre-nos{
+        font-size: 7.5vw;
+        margin-bottom: 4vw;
+        line-height: 8vw;
+        text-align: center;
+    }
+
+    .sobre-nos p{
+        font-size: 3.5vw;
+        line-height: 4.2vw;
+        text-align: justify;
+    }
+
+    .sobre-nos p strong{
+        font-size: 3.8vw;
+        line-height: 4.5vw;
+    }
+
+    .btn.botao-ajuda{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 30vw;
+        height: 5vw;
+        font-size: 2vw;
+        padding-bottom: 1vw;
+    }
+
+    /*fazemos isso e muito mais*/
+    .body .row_sobre-nos .fazemos-isso{
+        width: 100%;
+        max-width: 100%;    
+        padding-left: 5.2vw;
+        padding-top: 4vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .fazemos-isso__title{
+        font-size: 2.7vw;
+        line-height: 3vw;
+        margin-top: 8vw;
+        margin-bottom: 4vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3vw;
+        margin-bottom: 4.5vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card{
+        max-width: 40vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card img{
+        height: auto;
+        width: 30vw;
+        margin: 0vw 1vw;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card .card__featured{
+        font-size: 8vw;
+        line-height: 8.7vw;
+        margin: 5% 0;
+        text-align: center;
+        font-weight: bold;        
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card .card__featured span{
+        line-height: 2.8vw;
+        font-size: 2.5vw;
+        margin-right: 0.9vw;    
+        font-weight: lighter;
+    }
+
+    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card p{
+        line-height: 2.8vw;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    /*banner rosa*/
+    label{
+        font-size: 4.7vw;
+        line-height: 5.5vw;
+        margin-top: 2vw;
+        font-weight: lighter;
+    }
+
+    .row-galeria{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-top: 4vw;
+        padding-left: 30vw;
+        padding-bottom: 15vw;
+    }
+
+    .row-galeria .col{
+        max-width: 37.7vw;
+        position: relative;
+    }
+
+    .quadro-branco{
+        margin-bottom: 1.7vw;
+    }
+
+    .img-galeria{
+        width: 35vw;
+        height: 35vw;
+        margin-left: -2.2vw;
+    }
+
+    .texto1{
+        text-align: center;
+        margin-bottom: 3vw;
+    }
+
+    .btn.botao-flickr{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+
+        margin-top: 6.5vw;     
+        width: 28vw;
+        height: 5vw;
+        font-size: 2vw;
+        line-height: 2.6vw;
+        padding-bottom: 1.5vw;
+    }
+
+    .col.flickr{
+        margin-bottom: 5vw;
+    }
+
+    .texto{
+        display: none;
+    }
+
+    .texto1{
+        display: block;
+    }
+
+    .flickr{
+        display: block;
+    }
+
+    /*como ajudar*/
+    .col-ajudar{
+        flex-direction: column;
+        padding-bottom: 10vw;
+        padding-top: 1.8vw;
+        margin-top: 0px;
+    }
+
+    .quadros.doe{
+        margin-left: 28.5vw;
+    }
+
+    .quadros.seja{
+        margin-left: 28.5vw;
+    }
+
+    .quadros.parceira{
+        margin-left: 28.5vw;
+    }
+
+    .quadros.itens{
+        margin-left: 28.5vw;
+    }
+
+    .quadros h4{
+        font-size: 5vw;
+        line-height: 5.3vw;
+        text-align: center;
+    }
+
+    .quadros h5{
+        font-size: 1.8vw;
+        line-height: 2.2vw;
+        letter-spacing: 0.24em;
+    }
+
+    .quadros{
+        width: 50vw;
+        height: 50vw;
+        margin-bottom: 1.5vw;
+    }
+
+    .col-ajudar .titulo-ajudar{
+        width: 45vw;
+        font-size: 5vw;
+        line-height: 5.5vw;
+        margin-bottom: 4vw;
+        margin-top: 7vw;
+        margin-left: 28vw;
+    }
+
+    .btn.botao{
+        width: 27vw;
+        height: 5vw;
+        font-size: 2vw;
+        margin-top: 1vw;
+    }    
+
+    .legenda{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: -10vw;
+    }
+
+    .legenda.empresa{
+        width: 35vw;
+        margin-top: -12vw;
+        margin-left: 1.2vw;
+    }
+
+    .legenda.outros{
+        margin-top: -15.5vw;
+        margin-left: 1vw;
+    }
+
+    .legenda.online{   
+        width: 25vw;
+    }
+
+    .legenda.outros h5{
+        width: 38vw;
+    }
+
+    .legenda.online .botao{
+        margin-left: -1vw;
+    }
+
+    .legenda.outros .botao{
+        margin-left: 5.5vw;
+    }
+
+    .legenda.empresa a{
+        margin-left: 2vw;
+    }
+
+    .legenda.voluntario a{
+        margin-left: 3.5vw;
+    }
+
+    /*rodape*/
+    .footer{
+        flex-direction: column;
+        height: auto;
+        margin-top: 0vw;
+    }
+
+    .response{
+        flex-direction: column;
+    }
+
+    .footer h5{
+        font-size: 5vw;
+        line-height: 5.5vw;
+        margin-bottom: 2vw;
+    }
+
+    .footer h6{
+        font-size: 3.5vw;
+        line-height: 4vw;
+        margin-right: 2.5vw;
+        font-weight: lighter;
+    }
+
+    .footer .footer__contato{        
+        margin-left: 20vw;
+        width: 100vw;  
+        margin-top: 6vw;      
+    }
+
+    .footer__contato img{
+        width: 3.5vw; 
+        margin-right: 1vw; 
+        margin-left: -4.4vw
+    }
+
+    .footer .footer__sociais{
+        margin-left: 15vw;
+        margin-top: 10vw;
+        width: 60vw;
+        text-align: center;
+    }
+
+    .footer__sociais .sociais__logo{
+        margin-top: .8vw;
+        width: 40vw;
+        margin-left: 6vw;
+        margin-bottom: 7vw;
+    }
+
+    .footer__sociais .sociais__logo .col img{
+        width: 6vw;
+    }
+
+    .footer__logo1{
+        display: none;
+    }
+
+    .footer__logo2{
+        display: block;
+        margin-top: 3vw;
+        margin-bottom: 10vw;
+        margin-left: 20vw;
+    }
+
+    .footer__logo2 img{
+        width: 43vw;
+        margin-left: -5vw;
+    }
+
+    .footer__contato .col.telefones2 .row.telefones h6 span{
+        font-size: 2vw;
+    }
+
+    .col.telefones1{
+        display: none;
+    }
+    
+    .col.telefones2{
+        display: block;
+    }
 }
