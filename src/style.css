@@ -853,7 +853,7 @@ label{
     }
 }
 
-@media screen and (min-width: 650px) and (max-width: 699px){
+@media screen and (min-width: 435px) and (max-width: 699px){
     /*fazemos isso e muito mais*/
     .body .row_sobre-nos .fazemos-isso .caixas{
         display: flex;
@@ -936,58 +936,10 @@ label{
         font-size: .6rem;
     }
 
-    /*fazemos isso e muito mais*/
-    .body .row_sobre-nos .fazemos-isso .caixas{
-        display: flex;
-        flex-direction: row;
-        margin-top: 3vw;
-        margin-left: 9.5vw;
-    }
-
-    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card{
-        max-width: 29vw;
-    }
-
     /*banner rosa*/
     label{
         font-size: 4.4vw;
         line-height: 5vw;
-    }
-
-    .row-galeria{
-        flex-direction: column;
-        width: 100%;
-        padding-top: 4vw;
-        padding-left: 32vw;
-        padding-bottom: 15vw;
-    }
-
-    .row-galeria .col{
-        max-width: 35.4vw;
-        position: relative;
-    }
-
-    .quadro-branco{
-        width: 35vw;
-        margin-bottom: 1.5vw;
-    }
-
-    .img-galeria{
-        width: 33vw;
-        height: 33vw;
-        margin-left: -1.2vw;
-    }
-
-    .btn.botao-flickr{
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%);
-
-        margin-top: 5vw;        
-        width: 24vw;
-        height: 5vw;
-        font-size: 1.8vw;
-        line-height: 2.6vw;
     }
 
     .col.flickr{
@@ -1135,50 +1087,16 @@ label{
         margin-bottom: 4vw;
     }
 
-    /*fazemos isso e muito mais*/
-    .body .row_sobre-nos .fazemos-isso .caixas{
-        display: flex;
-        flex-direction: row;
-        margin-top: 3vw;
-        margin-left: 9.5vw;
-    }
-
-    .body .row_sobre-nos .fazemos-isso .caixas .caixas__card{
-        max-width: 29vw;
-    }
-
     /*banner rosa*/
     label{
         font-size: 4.4vw;
         line-height: 5vw;
     }
 
-    .row-galeria .col{
-        max-width: 35.4vw;
-        position: relative;
-    }
-
-    .quadro-branco{
-        width: 35vw;
-        margin-bottom: 1.5vw;
-    }
-
     .img-galeria{
         width: 33vw;
         height: 33vw;
         margin-left: -2vw;
-    }
-
-    .btn.botao-flickr{
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%);
-
-        margin-top: 5vw;      
-        width: 24vw;
-        height: 5vw;
-        font-size: 1.8vw;
-        line-height: 2.6vw;
     }
 
     .col.flickr{
@@ -1303,7 +1221,7 @@ label{
     }
 
     .footer .footer__contato{        
-        margin-left: 15vw;
+        margin-left: 13vw;
         width: 100vw;  
         margin-top: 6vw;      
     }
@@ -1315,7 +1233,7 @@ label{
     }
 
     .footer .footer__sociais{
-        margin-left: 15vw;
+        margin-left: 13vw;
         margin-top: 7vw;
         width: 40vw;
         text-align: center;
@@ -1336,7 +1254,7 @@ label{
         display: block;
         margin-top: 1vw;
         margin-bottom: 6vw;
-        margin-left: 8vw;
+        margin-left: 4.5vw;
     }
 
     .footer__logo2 img{
