@@ -24,7 +24,6 @@ body{
     font-size: 1.14vw;
 }
 
-
 /*cabecalho*/
 .cabecalho{
     align-items: center;
@@ -32,11 +31,6 @@ body{
     flex-direction: column;
     font-family: 'Asap', sans-serif;
     justify-content: center;
-    width: 100%;
-}
-
-.cabecalho nav{
-    padding: 1% 10%;
     width: 100%;
 }
 
@@ -667,11 +661,11 @@ label{
 
     /*como ajudar*/
     .quadros.doe{
-        margin-left: 18vw;
+        margin-left: 15vw;
     }
 
     .quadros.parceira{
-        margin-left: 18vw;
+        margin-left: 15vw;
     }
 
     .quadros h4{
@@ -1063,7 +1057,7 @@ label{
     }
 }
 
-@media (min-width: 435px) and (max-width: 509px){
+@media (min-width: 355px) and (max-width: 509px){
     .cabecalho .navbar a img{
         width: 25vw;
     }
@@ -1222,12 +1216,6 @@ label{
         padding-right: 11vw;
         padding-left: 8vw;
         width: 100%;
-    }
-
-    .row_sobre-nos .sobre-nos{
-        width: 100%;
-        max-width: 100%;
-        position: relative;
     }
 
     /*sobre nos*/
@@ -1420,15 +1408,6 @@ label{
         margin-bottom: 1.5vw;
     }
 
-    .col-ajudar .titulo-ajudar{
-        width: 45vw;
-        font-size: 5vw;
-        line-height: 5.5vw;
-        margin-bottom: 4vw;
-        margin-top: 7vw;
-        margin-left: 28vw;
-    }
-
     .btn.botao{
         width: 27vw;
         height: 5vw;
@@ -1479,16 +1458,6 @@ label{
     }
 
     /*rodape*/
-    .footer{
-        flex-direction: column;
-        height: auto;
-        margin-top: 0vw;
-    }
-
-    .response{
-        flex-direction: column;
-    }
-
     .footer h5{
         font-size: 5vw;
         line-height: 5.5vw;
@@ -1550,14 +1519,6 @@ label{
 
     .footer__contato .col.telefones2 .row.telefones h6 span{
         font-size: 2vw;
-    }
-
-    .col.telefones1{
-        display: none;
-    }
-    
-    .col.telefones2{
-        display: block;
     }
 }
 
@@ -1784,6 +1745,7 @@ label{
         font-size: 2.2vw;
         padding-bottom: 3.2vw;
         margin-top: 1vw;     
+        font-size: 2vw;
     }
 
     .legenda{
@@ -1817,11 +1779,11 @@ label{
     }
 
     .legenda.outros .botao{
-        margin-left: 5.3vw;
+        margin-left: 4vw;
     }
 
     .legenda.empresa a{
-        margin-left: 1.6vw;
+        margin-left: 1vw;
     }
 
     .legenda.voluntario a{
