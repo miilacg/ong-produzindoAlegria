@@ -724,6 +724,14 @@ label{
     }
 
     /*rodape*/
+    .footer{
+        flex-direction: column;
+        height: auto;
+        padding-top: 3vw;
+        padding-left: 20vw;
+        margin-bottom: .5vw;
+    }
+
     .footer h5{
         font-size: 2.5vw;
         line-height: 2.3vw;
@@ -734,6 +742,10 @@ label{
         font-size: 1.25vw;
         line-height: 1.8vw;
         margin-right: 1.5vw;
+    }
+
+    .footer .footer__contato{        
+        margin-left: -6vw;
     }
 
     .footer__contato img{
@@ -761,7 +773,7 @@ label{
     
     .footer__logo2{
         display: block;
-        margin-top: 1.5vw;
+        margin-top: 2.5vw;
         margin-bottom: 4vw;
         margin-left: 20vw;
     }
