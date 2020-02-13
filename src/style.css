@@ -34,6 +34,11 @@ body{
     width: 100%;
 }
 
+.cabecalho nav {
+    padding: 1% 10%;
+    width: 100%;
+}
+
 .cabecalho .navbar .navbar-collapse ul li{
     margin-left: 3.5vw;
 }
