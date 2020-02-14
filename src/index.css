@@ -17,26 +17,20 @@
 
 body, html{
     width: 100%;
-    flex:1;
-    border-style: none;
+    overflow-x: hidden;
 }
 
 body{
     font-family: 'Work Sans', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     font-size: 1.14vw;
 }
 
 /*cabecalho*/
 .cabecalho{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
     font-family: 'Asap', sans-serif;
-    justify-content: center;
     width: 100%;
 }
 
@@ -512,6 +506,11 @@ label{
 }
 
 @media screen and (min-width: 435px) and (max-width: 999px){
+    /*cabecalho*/
+    a.menu{
+        font-size: 2vw;
+    }
+
     /*row sobre nós*/
     .row_sobre-nos{
         flex-direction: column;
