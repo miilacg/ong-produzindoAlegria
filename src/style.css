@@ -15,6 +15,12 @@
    293px 24vw
    362px 27vw*/
 
+body, html{
+    width: 100%;
+    flex:1;
+    border-style: none;
+}
+
 body{
     font-family: 'Work Sans', sans-serif;
     display: flex;
@@ -789,6 +795,12 @@ label{
 }
 
 @media screen and (min-width: 435px) and (max-width: 849px){
+    /*cabecalho*/
+    a.menu{
+        font-size: 2vw;
+        letter-spacing: 0.1em;
+    }
+
     /*row sobre nós*/
     .row_sobre-nos{
         flex-direction: column;
@@ -1075,6 +1087,11 @@ label{
 }
 
 @media (min-width: 355px) and (max-width: 509px){
+    /*cabecallho*/
+    a.menu{
+        font-size: 2.5vw;
+    }
+
     .cabecalho .navbar a img{
         width: 25vw;
     }
@@ -1540,6 +1557,11 @@ label{
 }
 
 @media (max-width: 354px){
+    /*cabecallho*/
+    a.menu{
+        font-size: 2.5vw;
+    }
+
     .cabecalho .navbar a img{
         width: 40vw;
     }
